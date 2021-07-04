@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { MdKeyboardArrowRight, MdArrowForward } from 'react-icons/md';
-import React, { useState } from 'react';
+import React from 'react';
 import { Link } from 'react-scroll';
 
 
@@ -139,11 +139,7 @@ export const ArrowRight = styled(MdKeyboardArrowRight)`
 
 
 function HeroSection() {
-    const [hover, setHover] = useState(false);
-  
-    const onHover = () => {
-      setHover(!hover);
-    };
+   
     return (
       <HeroContainer id='home'>
         <HeroBg>
